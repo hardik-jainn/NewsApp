@@ -1,4 +1,3 @@
 gunicorn==22.0.0
 requests
 pillow==9.5.0
-urllib
