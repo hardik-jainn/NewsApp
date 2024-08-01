@@ -1,5 +1,1 @@
-webbrowser
-requests
-tkinter
-urllib
-PIL
+
