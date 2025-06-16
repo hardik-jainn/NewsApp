@@ -19,7 +19,7 @@ class NewsApp:
         self.root.geometry('350x600')
         self.root.resizable(0,0)
         self.root.config(bg='black')
-        self.root.title('Mera News App')
+        self.root.title('My News App')
 
     def clear(self):
         for i in self.root.pack_slaves():
