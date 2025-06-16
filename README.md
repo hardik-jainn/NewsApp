@@ -9,6 +9,9 @@ A real-time news reader dashboard built with Streamlit and powered by NewsAPI. B
 - "Previous" and "Next" buttons for article navigation
 - Error handling for empty responses and image issues
 
+## 🌐 Live Demo
+Try the app live here 👉 [https://hardik-jain-api-news.streamlit.app/](https://hardik-jain-api-news.streamlit.app/)
+
 ## 🛠 Tech Stack
 - Python 3.x
 - Streamlit
@@ -24,6 +27,7 @@ Edit
 streamlit run streamlit-api-news-app.py
 🔐 Note on API Key
 This app uses a free NewsAPI key. You can get your own from newsapi.org.
+
 Replace the API key in this line:
 
 python
