@@ -22,7 +22,13 @@ else:
 
     # ---- DISPLAY NEWS CARD ----
     st.title("📰 My News App")
-    st.image(article.get("urlToImage", "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png"), width=600)
+    image_url = article.get("urlToImage")
+    fallback = "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png"
+
+    try:
+        st.image(image_url or fallback, width=600)
+    except:
+        st.image(fallback, width=600)
     st.subheader(article.get("title", "No title available"))
     st.write(article.get("description", "No description available"))
 
